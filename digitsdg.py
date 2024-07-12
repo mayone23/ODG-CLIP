@@ -5,7 +5,7 @@ import torch.nn.utils as utils
 import torch.nn as nn
 from torch.nn import functional as F
 import torchvision.transforms.functional as TF
-from torch.cuda.amp import GradScaler, autocast
+from torch.cuda.amp import GradScaler, autocast 
 
 from dassl.engine import TRAINER_REGISTRY, TrainerX
 from dassl.metrics import compute_accuracy
